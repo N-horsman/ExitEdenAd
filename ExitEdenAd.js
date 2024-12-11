@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ExitEdenAd_atlas_1", frames: [[0,1506,324,30],[344,1858,340,47],[0,1858,342,90],[0,0,600,433],[502,1208,218,648],[293,628,314,576],[602,0,300,626],[722,1208,209,650],[609,628,310,578],[0,435,291,626],[0,1206,500,298]]}
+		{name:"ExitEdenAd_atlas_1", frames: [[0,1506,324,30],[344,1858,294,47],[0,1858,342,90],[0,0,600,433],[502,1208,218,648],[293,628,314,576],[602,0,300,626],[722,1208,209,650],[609,628,310,578],[0,435,291,626],[0,1206,500,298]]}
 ];
 
 
@@ -208,7 +208,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.ExitEden, new cjs.Rectangle(0,0,242,144.3), null);
 
 
-(lib.Description = function(mode,startPosition,loop,reversed) {
+(lib.DesciptionEdit1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -227,7 +227,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Description, new cjs.Rectangle(0,0,170,23.5), null);
+}).prototype = getMCSymbolPrototype(lib.DesciptionEdit1, new cjs.Rectangle(0,0,147,23.5), null);
 
 
 (lib.ClementineSilouette = function(mode,startPosition,loop,reversed) {
@@ -396,8 +396,8 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(125).to({alpha:1},0).wait(18));
 
 	// Description
-	this.instance_2 = new lib.Description();
-	this.instance_2.setTransform(113.2,53.5,1,1,0,0,0,85,11.7);
+	this.instance_2 = new lib.DesciptionEdit1();
+	this.instance_2.setTransform(101.75,53.75,1,1,0,0,0,73.5,11.7);
 	this.instance_2.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(91).to({alpha:1},15).wait(37));
